@@ -1,0 +1,8 @@
+body{
+    /* background-image: url("../../../images/headerBG.jpg"); */
+    background-color: #FFFF;
+}
+.headerMain{
+    background-color: aliceblue;
+    height: 600px;
+}
