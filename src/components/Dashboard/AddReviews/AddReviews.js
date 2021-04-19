@@ -12,7 +12,7 @@ const AddReviews = () => {
 
         console.log(review);
 
-        fetch('http://localhost:5000/dashboard/addreviews', {
+        fetch('https://glacial-sierra-08693.herokuapp.com/dashboard/addreviews', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(review),

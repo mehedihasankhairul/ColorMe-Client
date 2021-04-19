@@ -6,7 +6,7 @@ const ManageAdmin = () => {
     const [books,setBooks] = useState([])
     const handleDelete = id => {
         console.log(id);
-        fetch(`http://localhost:5000/dashboard/delete/${id}`, {
+        fetch(`https://glacial-sierra-08693.herokuapp.com/dashboard/delete/${id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'
@@ -22,7 +22,7 @@ const ManageAdmin = () => {
     }
     const fetchProducts= () =>{
     
-        fetch('http://localhost:5000/dashboard/bookinglist')
+        fetch('https://glacial-sierra-08693.herokuapp.com/dashboard/bookinglist')
         .then(res=>res.json())
         .then(data=>setBooks(data))
     }
@@ -44,7 +44,7 @@ const ManageAdmin = () => {
       <th scope="col">Status</th>
       <th scope="col">Service</th>
       <th scope="col">Price</th>
-      <th scope="col">Action</th>
+      <th scope="col">Manage</th>
     </tr>
   </thead>
   <tbody>

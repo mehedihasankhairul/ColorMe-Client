@@ -10,7 +10,7 @@ const AddAdmin = () => {
         console.log(data);
 
 
-        fetch('http://localhost:5000/dashboard/addAdmin', {
+        fetch('https://glacial-sierra-08693.herokuapp.com/dashboard/addAdmin', {
             method: 'POST',
             headers: { 'Content-Type': 'Application/json' },
             body: JSON.stringify(data)

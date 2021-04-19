@@ -38,7 +38,7 @@ const BookService = () => {
             orderStatus: 'Pending',
             orderTime: new Date()
         }
-        fetch('http://localhost:5000/dashboard/addorder', {
+        fetch('https://glacial-sierra-08693.herokuapp.com/dashboard/addorder', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

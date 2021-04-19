@@ -7,7 +7,7 @@ const BookingList = () => {
     const [books,setBooks] = useState([])
     const fetchProducts= () =>{
     
-        fetch('http://localhost:5000/dashboard/bookinglist')
+        fetch('https://glacial-sierra-08693.herokuapp.com/dashboard/bookinglist')
         .then(res=>res.json())
         .then(data=>setBooks(data))
     }

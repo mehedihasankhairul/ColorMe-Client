@@ -10,7 +10,7 @@ const Sidebar = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext)
     const [admin, setAdmin] = useState(false)
     useEffect(() => {
-        fetch(`http://localhost:5000/isAdmin`,
+        fetch(`https://glacial-sierra-08693.herokuapp.com/isAdmin`,
             {
                 method: 'POST',
                 headers: { 'content-type': 'application/json' },

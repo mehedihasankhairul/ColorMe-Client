@@ -15,7 +15,7 @@ const AddService = () => {
       imageURL: imageURL,
       servicePrice: data.servicePrice
     };
-    const url = `http://localhost:5000/dashboard/addservice`;
+    const url = `https://glacial-sierra-08693.herokuapp.com/dashboard/addservice`;
 
     fetch(url, {
       method: 'POST',
