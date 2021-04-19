@@ -4,9 +4,9 @@ import Dashboard from '../Dashboard/Dashboard';
 
 
 const AddAdmin = () => {
-    const { register, handleSubmit, watch, errors } = useForm();
+    const { register, handleSubmit } = useForm();
     const onSubmit = data => {
- 
+        alert('admin added successfully')
         console.log(data);
 
 
@@ -27,7 +27,7 @@ const AddAdmin = () => {
 
         <section className="row">
             <Dashboard />
-            <div className="col-md-6 pr-3" row style={{position: "absolute", right: "0%", left: "20%" ,backgroundColor: "#F4FDFB", marginTop: "10%"}}>
+            <div className="col-md-6 pr-3" row style={{ position: "absolute", right: "0%", left: "20%", backgroundColor: "#F4FDFB", marginTop: "10%" }}>
                 <h4 className="text-secondary">Make a Admin</h4>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className=" col-md-4">

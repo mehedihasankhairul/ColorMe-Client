@@ -9,7 +9,7 @@ const AddReviews = () => {
 
 
     const onSubmit = review => {
-
+            alert('Thank You! Your review posted successfully')
         console.log(review);
 
         fetch('https://glacial-sierra-08693.herokuapp.com/dashboard/addreviews', {

@@ -17,7 +17,7 @@ const Payment = ({handlePayment}) => {
         <Dashboard />
         <div style={PaymentCard} className='text-center'> 
             <Elements  stripe={stripePromise}>
-            <h4 >Pay For Order</h4>
+            <h4 >Pay For Service</h4>
 
                 <SliptForm handlePayment={handlePayment}></SliptForm>
             </Elements>

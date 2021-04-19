@@ -5,10 +5,6 @@ import carousel1 from '../../../images/p1.jpg';
 import carousel2 from '../../../images/p2.jpg';
 import carousel3 from '../../../images/p-3.jpg'
 import carousel4 from '../../../images/p4.jpg'
-// import {
-//   GlassMagnifier,
-// } from "react-image-magnifiers";
-// import GlassMagnifier from 'react-glass-magnifier'
 import {
     GlassMagnifier,
   } from "react-image-magnifiers";
