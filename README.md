@@ -5,3 +5,9 @@ Painting Web Service Application
 ## Material Using
 #React, Firebase, bootstrap, stripe payment, axios, heroku,
 
+## Home Page
+## Navbar, Header Section, all Service, Testimonial,happy Client, Contact Form, Footer
+## Bonus- Spiner on Loading
+
+##Admin
+## Add product, Add Service, Manage Service, Add admin, Book a service. booking list.
